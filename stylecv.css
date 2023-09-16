@@ -1,0 +1,173 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 25% 1fr; /* Deux colonnes égales */
+  gap: 20px; /* Espace entre les colonnes */
+  width: 2480px;
+}
+
+/* Style des éléments à l'intérieur de la grille */
+.grid-item-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid #ccc;
+  height: 3508px;
+  background: #c2c2c2;
+}
+.grid-item-right {
+  padding: 20px;
+  border: 1px solid #ccc;
+
+  height: 3508px;
+  background: #e69a9a;
+}
+body {
+  padding: 0px;
+  margin: 0px;
+  max-width: 2480px;
+  max-height: 3508px;
+}
+.maphoto img {
+  max-width: 100%;
+  height: 56%;
+  width: 300px;
+  border-radius: 100%;
+  margin-top: 100px;
+}
+.iconmobile {
+  width: 100%;
+  padding-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+.iconmobile i {
+  font-size: 40px;
+}
+.iconmobile p {
+  font-size: 30px;
+}
+.monmail {
+  width: 100%;
+  padding-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.monmail i {
+  font-size: 40px;
+}
+.monmail p {
+  font-size: 30px;
+}
+.localisation {
+  width: 100%;
+  padding-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.localisation i {
+  font-size: 40px;
+}
+.localisation p {
+  font-size: 30px;
+}
+.dev h1 {
+  display: flex;
+  justify-content: center;
+  margin: 0px;
+}
+.dev img {
+  display: flex;
+}
+.dev li {
+  font-size: 25px;
+}
+.dev ul {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin-left: 20px;
+  font-size: 25px;
+}
+.competences ul {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin-left: 20px;
+  font-size: 25px;
+}
+.competences h1 {
+  display: flex;
+  justify-content: center;
+  margin: 0px;
+}
+.formation ul {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin-left: 20px;
+  font-size: 25px;
+}
+.formation h1 {
+  display: flex;
+  justify-content: center;
+  margin: 0px;
+}
+.langue ul {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin-left: 20px;
+  font-size: 25px;
+}
+.langue h1 {
+  display: flex;
+  justify-content: center;
+  margin: 0px;
+}
+.grid-item-right {
+  background: #777676;
+}
+.grid-item-right h1 {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  font-size: 90px;
+  margin-top: 200px;
+  color: white;
+}
+img {
+  margin: 100px 0px 50px 0px;
+}
+.apropos {
+  color: white;
+  font-size: 30px;
+  margin: 0px 0px 9px 50px;
+  padding-top: 80px;
+  margin-left: 156px;
+}
+.apropos p {
+  padding-right: 100px;
+  line-height: 2;
+  font-size: 35px;
+}
+.pro {
+  padding-right: 100px;
+  line-height: 2;
+  font-size: 35px;
+}
+.sepadedroite img {
+  margin: 0px;
+}
+.diplome img {
+  margin: 0px;
+}
+.diplome {
+  padding-right: 100px;
+  line-height: 2;
+  font-size: 35px;
+}
